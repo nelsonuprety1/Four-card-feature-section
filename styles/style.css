@@ -53,6 +53,42 @@ body {
     margin-bottom: 50px;
 }
 
+.supervisor,
+.team-builder,
+.karma,
+.calculator {
+    max-width: 300px;
+    height: 200px;
+    border: 1px solid rgb(245, 241, 241);
+    margin-bottom: 20px;
+    padding: 15px;
+    margin-right: 35px;
+    border-radius: 5px;
+    /* box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.45); */
+    box-shadow: 0 8px 8px -4px rgba(0, 0, 0, 0.45);
+}
+
+.supervisor {
+    border-top-color: var(--color-cyan);
+    border-top-width: 0.25rem;
+}
+
+.team-builder {
+    border-top-color: var(--color-red);
+    border-top-width: 0.25rem;
+}
+
+.karma {
+    border-top-color: var(--color-orange);
+    border-top-width: 0.25rem;
+}
+
+.calculator {
+    border-top-color: var(--color-blue);
+    border-top-width: 0.25rem;
+
+}
+
 .attribution {
     margin-top: 70px;
     font-size: 11px;
