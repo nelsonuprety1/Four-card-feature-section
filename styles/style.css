@@ -6,8 +6,8 @@
     --color-cyan: hsl(180, 62%, 55%);
     --color-orange: hsl(34, 97%, 64%);
     --color-blue: hsl(212, 86%, 64%);
-    --color-very-dark-blue: hsl(234, 12%, 34%);
-    --color-grayish-blue: hsl(229, 6%, 66%);
+    --color-very-dark-gray: hsl(234, 12%, 34%);
+    --color-grayish-gray: hsl(229, 6%, 66%);
     --color-very-light-gray: hsl(0, 0%, 98%);
     --font: 'Poppins', 'Times New Roman', Times, serif;
     --font-two: 200;
@@ -15,11 +15,51 @@
     --font-six: 600;
 }
 
+body {
+    display: flex;
+    font-family: var(--font);
+    width: 100%;
+    background-color: var(--color-very-light-gray);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 450px;
+    margin: 60px auto;
+    padding: 0 50px;
+}
+
+.heading-1 {
+    font-size: 1.3rem;
+    color: var(--color-grayish-gray);
+    padding: 15px;
+    font-weight: var(--font-two);
+}
+
+.technology {
+    color: var(--color-very-dark-gray);
+    font-weight: var(--font-six);
+    font-size: 1.3rem;
+}
+
+.main-paragraph {
+    color: var(--color-grayish-gray);
+    font-weight: var(--font-two);
+    font-size: 0.8rem;
+    width: 250px;
+    margin-right: 65px;
+    margin-bottom: 50px;
+}
 
 .attribution {
-    margin-top: 30px;
+    margin-top: 70px;
     font-size: 11px;
     text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: 50px;
 }
 
 .attribution a {
