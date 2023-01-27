@@ -107,8 +107,28 @@ body {
 .calculator {
     border-top-color: var(--color-blue);
     border-top-width: 0.25rem;
-
 }
+
+.dark-mode {
+    background-color: #000;
+    color: #fff;
+}
+
+#dark-mode-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+
+#dark-mode-btn .dark-mode {
+    background-color: #fff;
+    color: #000;
+}
+
 
 .attribution {
     margin-top: 70px;
